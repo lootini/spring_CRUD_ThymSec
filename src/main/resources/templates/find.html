@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html    xmlns:th="http://thymeleaf.org">
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Fomulaire de recherche d'un Produit</title>
+</head>
+<body>
+
+<form th:action="@{/findproduct}" method="post">
+  <div>
+    <label for ="idProduct">ID Product :</label>
+    <input type="text" id="idProduct" name="idProduct"/>
+  </div>
+
+
+  <input type="submit" value="Login">
+  </div>
+</form>
+
+
+</body>
+</html>
